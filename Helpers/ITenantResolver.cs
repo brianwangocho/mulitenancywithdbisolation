@@ -1,4 +1,5 @@
 ﻿
+using MultiTenancy.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,12 +14,15 @@ namespace MultiTenancy.Helpers
 
     public class TenantResolver : ITenantResolver
     {
+
         private string Current_Tenant { get; set; }
 
         private readonly Microsoft.AspNetCore.Http.IHttpContextAccessor _httpContextAccessor;
+  
 
         public TenantResolver(Microsoft.AspNetCore.Http.IHttpContextAccessor httpContextAccessor)
         {
+         
             _httpContextAccessor = httpContextAccessor;
         }
         public string CurrentTenant()
@@ -33,6 +37,7 @@ namespace MultiTenancy.Helpers
 
         public void SetTenant()
         {
+
             _httpContextAccessor.HttpContext.Items.TryGetValue("CURRENT_TENANT", out object currentTenant);
             if (currentTenant != null)
             {

@@ -13,9 +13,9 @@ namespace MultiTenancy.Controllers
     public class OrganisationController : ControllerBase
     {
 
-        public MydbContext _Db;
+        public HostDbContext _Db;
 
-        public OrganisationController(MydbContext Db)
+        public OrganisationController(HostDbContext Db)
         {
             _Db = Db;
         }
@@ -27,9 +27,9 @@ namespace MultiTenancy.Controllers
         /// <returns></returns>
         [HttpGet("organisation_list")]
         [Route("organisation_list")]
-        public async Task<IActionResult> GetOrganisations()
+        public  Task<IActionResult> GetOrganisations()
         {
-            var result = _Db.Organisations;
+            var result =  _Db.Organisations.ToList<Organisation>();
 
             return Ok(result);
 
