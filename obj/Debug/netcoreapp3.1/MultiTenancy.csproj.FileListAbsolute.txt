@@ -45,3 +45,13 @@ C:\Users\Ngenx\source\repos\MultiTenancy\bin\Debug\netcoreapp3.1\Microsoft.AspNe
 C:\Users\Ngenx\source\repos\MultiTenancy\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\Ngenx\source\repos\MultiTenancy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\Users\Ngenx\source\repos\MultiTenancy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Ngenx\source\repos\MultiTenancy\obj\Debug\netcoreapp3.1\MultiTenancy.csproj.CoreCompileInputs.cache
+C:\Users\Ngenx\source\repos\MultiTenancy\obj\Debug\netcoreapp3.1\MultiTenancy.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ngenx\source\repos\MultiTenancy\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Ngenx\source\repos\MultiTenancy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Ngenx\source\repos\MultiTenancy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Ngenx\source\repos\MultiTenancy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Ngenx\source\repos\MultiTenancy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Ngenx\source\repos\MultiTenancy\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Ngenx\source\repos\MultiTenancy\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Ngenx\source\repos\MultiTenancy\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll

@@ -27,7 +27,7 @@ namespace MultiTenancy.Controllers
         /// <returns></returns>
         [HttpGet("organisation_list")]
         [Route("organisation_list")]
-        public  Task<IActionResult> GetOrganisations()
+        public async Task<IActionResult> GetOrganisations()
         {
             var result =  _Db.Organisations.ToList<Organisation>();
 
